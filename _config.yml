@@ -12,8 +12,8 @@ baseurl: "/remember"         # for example, '/blog' if your blog hosted on 'host
 
 # SNS settings
 RSS: false
-weibo_username:   bobika
-github_username:  bobika
+weibo_username: bobika
+github_username: bobika
 
 
 
