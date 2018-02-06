@@ -1,0 +1,95 @@
+---
+layout:     post
+title:      "开始Python"
+subtitle:   " \"人生苦短，要多学习\""
+date:       2018-02-05
+author:     "Bobika"
+header-img: "img/Hello-bg.jpg"
+catalog: true
+tags:
+    - Tech
+    - Python
+---
+#开始Python
+Python也不是第一门语言了，所以熟悉语法方面的知识会很快带过。虽然是跟着MOOC的课扫盲上过来的，但是代码还是敲了一遍，都是比较简单的测试用，其中我觉得会可能格外用到或者重要的地方会标注出来，同时也会更详细，可能会有后续补充。
+
+###下载安装
+windows+python 3.6.4
+下载安装包，安装即可。
+
+###语法元素入门
+注释 单行注释：\#注释内容; 多行注释：'''---注释内容--- '''  
+>\#这一行会被注释掉
+
+输入 “input()”
+>input()  \#代码中包含这一行会等待用户输入一个内容
+
+输出 “print()”
+>输出可以直接输出变量，也可以用“%”控制输出
+ 例如：print("The number is %f" % num)
+
+缩进 “    ”
+>Python依赖缩进区分语法结构，所以缩进很重要，一个tab是一个缩进
+
+变量和命名
+>命名规则：使用大小写字母、数字和下划线的组合，但首字母只能是大小写字母或下划线，不能使用空格。 中文也可以作为名字。且Python大小写敏感。
+
+Python关键字
+>and, del, from, not, while, as, elif, global, or, with, assert, else, if, pass, yield, break, except, import, print, class, exec, in, raise, contiue, finally, is, return, def, for, lambda, try
+
+函数库引入
+>import turtle
+ from turtle import *
+
+###内置Turtle库
+Turtle库
+>Python内置图形化模块
+
+Turtle库使用
+>\#一只小乌龟，在一个横轴为x、纵轴为y的坐标系原点位置(0,0)开始
+ 它根据函数指令的控制,在平民啊坐标系中移动，从而在爬行的路径上绘制图形
+
+Turtle库简单操作示例
+>1.Turtle绘制简单蟒蛇
+ 2.Turtle绘制树形
+ 3.Turtle绘制图形和颜色填充
+ 4.Turtle绘制时钟
+ 5.Turtle绘制雪地
+
+Turtle库快速参考
+> ![](/img/in-post/post-python/quick-infe.jpg)
+
+###数字类型与字符串
+###元组和列表
+###math库和random库
+>1.计算π
+
+###程序基本结构
+####分支
+####异常处理
+####循环
+####布尔表达式
+
+###函数与递归
+####函数
+####递归
+
+###文件和字典、
+####文件基础
+实例
+>1.从文件读取数据画图
+ 2.合并通讯录
+####字典
+实例
+>1.获取词频
+
+###对象
+实例
+>1.铅球飞行轨迹
+
+###Python库安装
+###Python OS编程
+###数学库的使用
+####numpy库
+####matplotlib库
+
