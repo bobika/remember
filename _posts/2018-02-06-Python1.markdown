@@ -19,47 +19,46 @@ windows+python 3.6.4
 
 ### 语法元素入门
 注释 单行注释：\#注释内容; 多行注释：'''---注释内容--- '''  
->\#这一行会被注释掉
+> \#这一行会被注释掉
 
 输入 “input()”
->input()  \#代码中包含这一行会等待用户输入一个内容
+> input()  \#代码中包含这一行会等待用户输入一个内容
 
 输出 “print()”
->输出可以直接输出变量，也可以用“%”控制输出
- 例如：print("The number is %f" % num)
+> 输出可以直接输出变量，也可以用“%”控制输出
+  例如：print("The number is %f" % num)
 
 缩进 “    ”
->Python依赖缩进区分语法结构，所以缩进很重要，一个tab是一个缩进
+> Python依赖缩进区分语法结构，所以缩进很重要，一个tab是一个缩进
 
 变量和命名
->命名规则：使用大小写字母、数字和下划线的组合，但首字母只能是大小写字母或下划线，不能使用空格。 中文也可以作为名字。且Python大小写敏感。
+>命名规则：使用大小写字母、数字和下划线的组合，但 **首字母只能是大小写字母或下划线** ，不能使用空格。 中文也可以作为名字。**且Python大小写敏感**。
 
 Python关键字
->and, del, from, not, while, as, elif, global, or, with, assert, else, if, pass, yield, break, except, import, print, class, exec, in, raise, contiue, finally, is, return, def, for, lambda, try
+> `` and, del, from, not, while, as, elif, global, or, with, assert, else, if, pass, yield, break, except, import, print, class, exec, in, raise, contiue, finally, is, return, def, for, lambda, try ``
 
 >
 
 函数库引入
->import turtle
- from turtle import *
+> `` import turtle ``
+> `` from turtle import *  ``
 
 ### 内置Turtle库
 Turtle库
->Python内置图形化模块
+> Python内置图形化模块
 
 Turtle库使用
->\#一只小乌龟，在一个横轴为x、纵轴为y的坐标系原点位置(0,0)开始
- 它根据函数指令的控制,在平民啊坐标系中移动，从而在爬行的路径上绘制图形
+> 一只小乌龟，在一个横轴为x、纵轴为y的坐标系原点位置(0,0)开始，它根据函数指令的控制,在平民啊坐标系中移动，从而在爬行的路径上绘制图形
 
 Turtle库简单操作示例
->1. Turtle绘制简单蟒蛇
- 2. Turtle绘制树形
- 3. Turtle绘制图形和颜色填充
- 4. Turtle绘制时钟
- 5. Turtle绘制雪地
+> 1. Turtle绘制简单蟒蛇
+  2. Turtle绘制树形
+  3. Turtle绘制图形和颜色填充
+  4. Turtle绘制时钟
+  5. Turtle绘制雪地
 
 Turtle库快速参考
-> ![](/img/in-post/post-python/quick-infe.jpg)
+> ![](/img/in-post/post-python/quick-infe.png)
 
 ### 数字类型与字符串
 ### 元组和列表
@@ -79,15 +78,15 @@ Turtle库快速参考
 ### 文件和字典、
 #### 文件基础
 实例
->1. 从文件读取数据画图
- 2. 合并通讯录
+> 1. 从文件读取数据画图
+  2. 合并通讯录
 #### 字典
 实例
->1. 获取词频
+> 1. 获取词频
 
 ###对象
 实例
->1. 铅球飞行轨迹
+> 1. 铅球飞行轨迹
 
 ### Python库安装
 ### Python OS编程
