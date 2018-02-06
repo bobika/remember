@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "Hello World"
+subtitle:   " \"This is a test\""
+date:       2018-02-04
+author:     "Bobika"
+header-img: "img/test.jpg"
+catalog: true
+tags:
+    - test
+---
+> “Hello World”
+
+这是一个测试页面 
