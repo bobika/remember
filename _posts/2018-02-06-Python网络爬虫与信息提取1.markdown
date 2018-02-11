@@ -45,7 +45,7 @@ path：请求资源的路径<br>
 **Request库的安装**
 打开命令行输入`pip install requests`即可
 > 测试：其中`r.status_code`为输出状态码，200表示获取成功<br>
- <img class="shadow" src="img/in-post/post-python/pp1-1.png" />
+ <img class="shadow" src="../img/in-post/post-python/pp1-1.png" />
  ![request](https://github.com/bobika/remember/raw/gh-pages/img/in-post/post-python/pp1-1.png)
 
 **Requests库的7个主要方法**
