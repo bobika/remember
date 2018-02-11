@@ -46,7 +46,7 @@ path：请求资源的路径<br>
 **Request库的安装**
 打开命令行输入`pip install requests`即可
 > 测试：其中`r.status_code`为输出状态码，200表示获取成功<br>
-> <img class="shadow" width="320" height="500" src="/img/in-post/post-python/pp1-1.png" />
+ <img class="shadow" src="/img/in-post/post-python/pp1-1.png" />
 
 **Requests库的7个主要方法**
 requests()方法为基础方法，其他方法都通过调用requests()方法来实现。
@@ -112,7 +112,7 @@ requests()方法为基础方法，其他方法都通过调用requests()方法来
 
 **put方法**
 >完整的put函数：`requests.put(url, data=None，**kwargs)`<br>
->url：拟更新页面的url
+>url：拟更新页面的url  
 >data：字典、字节序列或文件，Request的内容
 >**kwargs：12个控制访问的参数
 
@@ -158,3 +158,39 @@ if __name__ == "__main__":
     url = input("Plese input your url:")
     print(getHTMLText(url))
 ```
+
+## 网络爬虫的尺寸
+1. 爬取网页，玩网页----小规模，数据量小，爬取速度不敏感的。----Requests库----使用>90%
+2. 爬取网站，爬取系列网站----中规模，数据规模较大，爬取速度敏感。----Scrapy库
+3. 爬取全网----大规模，搜索引擎，爬取速度关键----定制开发
+
+## Robots协议
+Robots Exclasion Standard 网络爬虫排除标准<br>
+作用：网站告知网络爬虫哪些页面可以抓取，哪些不行。<br>
+形式：在网站根目录下的Robots.txt文件。<br>
+
+**案例：京东的Robots协议**
+```http://www.jd.com/robots.txt
+User-agent: *                 /*指对任何的网络爬虫来源，*代表所有爬虫 */
+Disallow: /?*                 /*任何爬虫都不允许访问？*的内容*/
+Disallow: /pop/*.html         /*任何爬虫都不允许访问/pop/*.html */
+Disallow: /pinpai/*.html?* 
+User-agent: EtaoSpider        /* 以下四个爬虫被禁止了*/
+Disallow: / 
+User-agent: HuihuiSpider 
+Disallow: / 
+User-agent: GwdangSpider 
+Disallow: / 
+User-agent: WochachaSpider 
+Disallow: /
+```
+
+**Robots协议遵守**
+网络爬虫：自动或人工识别robots.txt,再进行内容爬取。
+
+## 实例部分
+1. 京东商品页面的爬取
+2. 亚马逊商品页面的爬取
+3. 百度360搜索关键词提交
+4. 网络图片的爬取和存储
+5. IP地址归属地的自动查询
