@@ -61,7 +61,7 @@ windows+python 3.6.4
   5. Turtle绘制雪地
 
 **Turtle库快速参考**
-> <img src="/img/in-post/post-python/quick-infe.png" />
+ <img src="img/in-post/post-python/quick-infe.png" />
 
 ----
 
