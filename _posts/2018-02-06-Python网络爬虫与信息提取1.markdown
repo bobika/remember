@@ -31,7 +31,7 @@ port：端口号，缺省端口为80<br>
 path：请求资源的路径<br>
 
 **HTTP协议对资源的主要操作**
-> requests库的方法和HTTP协议操作一一对应
+> requests库的方法和HTTP协议操作一一对应<br>
 > 方法|说明
 > ----|----
 > GET|请求获取URL位置的资源
@@ -47,6 +47,7 @@ path：请求资源的路径<br>
 打开命令行输入`pip install requests`即可
 > 测试：其中`r.status_code`为输出状态码，200表示获取成功<br>
  <img class="shadow" src="img/in-post/post-python/pp1-1.png" />
+ ![request](img/in-post/post-python/pp1-1.png)
 
 **Requests库的7个主要方法**
 requests()方法为基础方法，其他方法都通过调用requests()方法来实现。
